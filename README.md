@@ -1,2 +1,2 @@
 # Addressable-LEDs-controlled-by-voltage-draw
-In this project I monitor the voltage draw from my wireless charger and create differ LED effects based on whether or not it is charging.
+In this project I monitor the voltage draw from my wireless charger and create differ LED effects based on whether or not it is charging. For this project you'll need an Arduino board with at least one analog pin and one output pin. The analog pin will read the voltage draw from the charger and the output pin will control the addressable LEDs. When you're finished wiring it use the serial monitor to read the voltage draw and determine valid ranges. The code only uses 2 ranges but can easily handle more by adjusting the boolean functions called in wipe().
